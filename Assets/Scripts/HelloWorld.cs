@@ -10,6 +10,7 @@ public class HelloWorld : MonoBehaviour
     void Start()
     {
         Debug.Log("HelloWorld");
+        Debug.Log("Script modified from new branch");
 
         GameObject.Instantiate(prefabCube);
     }
